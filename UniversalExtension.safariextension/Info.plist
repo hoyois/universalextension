@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Marc Hoyois</string>
 	<key>Builder Version</key>
-	<string>7534.48.3</string>
+	<string>7534.52.7</string>
 	<key>CFBundleDisplayName</key>
 	<string>Universal Extension</string>
 	<key>CFBundleIdentifier</key>
@@ -13,13 +13,39 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.2</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>3</string>
 	<key>Chrome</key>
 	<dict>
+		<key>Bars</key>
+		<array>
+			<dict>
+				<key>Filename</key>
+				<string>bar.html</string>
+				<key>Identifier</key>
+				<string>universal</string>
+				<key>Label</key>
+				<string>Universal</string>
+			</dict>
+		</array>
 		<key>Global Page</key>
 		<string>global.html</string>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>universal</string>
+				<key>Identifier</key>
+				<string>universal</string>
+				<key>Image</key>
+				<string>toolbar.png</string>
+				<key>Label</key>
+				<string>Universal</string>
+				<key>Palette Label</key>
+				<string></string>
+			</dict>
+		</array>
 	</dict>
 	<key>Content</key>
 	<dict>

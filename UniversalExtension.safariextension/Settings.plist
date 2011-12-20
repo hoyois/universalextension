@@ -4,9 +4,25 @@
 <array>
 	<dict>
 		<key>Key</key>
-		<string>script</string>
+		<string>global</string>
 		<key>Title</key>
 		<string>Global script</string>
+		<key>Type</key>
+		<string>TextField</string>
+	</dict>
+	<dict>
+		<key>Key</key>
+		<string>bar</string>
+		<key>Title</key>
+		<string>Bar script</string>
+		<key>Type</key>
+		<string>TextField</string>
+	</dict>
+	<dict>
+		<key>Key</key>
+		<string>popover</string>
+		<key>Title</key>
+		<string>Popover script</string>
 		<key>Type</key>
 		<string>TextField</string>
 	</dict>

@@ -2,9 +2,9 @@
 <html>
 	<head>
 		<script>
-			if(safari.extension.settings.global) {
+			if(safari.extension.settings.popover) {
 				var scriptElement = document.createElement("script");
-				scriptElement.src = safari.extension.settings.global + "?time=" + new Date().getTime();
+				scriptElement.src = safari.extension.settings.popover + "?time=" + new Date().getTime();
 				document.head.appendChild(scriptElement);
 			}
 		</script>
